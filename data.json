@@ -1,1159 +1,1158 @@
-
 {
-    "__credit": "k2r_n2iq",
-    "mob": [
-        {
-            "index": 1,
-            "technicalName": "rock",
-            "name": "Rock",
-            "displayName": "Rock",
-            "description": "A rock. It doesn't do much.",
-            "overriddenSpawnMessage": "Something mountain-like appears in the distance..."
-        },
-        {
-            "index": 2,
-            "technicalName": "cactus",
-            "name": "Cactus",
-            "displayName": "Cactus",
-            "description": "Avoid touching it, it hurts.",
-            "overriddenSpawnMessage": "A tower of thorns rises from the sands..."
-        },
-        {
-            "index": 3,
-            "technicalName": "ladybug",
-            "name": "Ladybug",
-            "displayName": "Ladybug",
-            "description": "Cute and harmless.",
-            "overriddenSpawnMessage": null
-        },
-        {
-            "index": 4,
-            "technicalName": "bee",
-            "name": "Bee",
-            "displayName": "Bee",
-            "description": "It stings. Don't touch it.",
-            "overriddenSpawnMessage": null
-        },
-        {
-            "index": 5,
-            "technicalName": "ant_baby",
-            "name": "Baby Ant",
-            "displayName": "Baby Ant",
-            "description": "Weak and defenseless, but big dreams.",
-            "overriddenSpawnMessage": null
-        },
-        {
-            "index": 6,
-            "technicalName": "ant_worker",
-            "name": "Worker Ant",
-            "displayName": "Worker Ant",
-            "description": "It's a bit temperamental, probably from working all the time.",
-            "overriddenSpawnMessage": null
-        },
-        {
-            "index": 7,
-            "technicalName": "soldier_ant",
-            "name": "Soldier Ant",
-            "displayName": "Soldier Ant",
-            "description": "It's got wings and it's ready to use them.",
-            "overriddenSpawnMessage": null
-        },
-        {
-            "index": 8,
-            "technicalName": "ant_queen",
-            "name": "Queen Ant",
-            "displayName": "Queen Ant",
-            "description": "You must have done something really bad if she's chasing you.",
-            "overriddenSpawnMessage": null
-        },
-        {
-            "index": 9,
-            "technicalName": "ant_hole",
-            "name": "Ant Hole",
-            "displayName": "Ant Hole",
-            "description": "Ants go in, and come out. Can't explain that.",
-            "overriddenSpawnMessage": null
-        },
-        {
-            "index": 10,
-            "technicalName": "beetle",
-            "name": "Beetle",
-            "displayName": "Beetle",
-            "description": "It's hungry and flowers are its favorite meal.",
-            "overriddenSpawnMessage": null
-        },
-        {
-            "index": 11,
-            "technicalName": "hornet",
-            "name": "Hornet",
-            "displayName": "Hornet",
-            "description": "These aren't quite as nice as the little bees.",
-            "overriddenSpawnMessage": "A big yellow spot shows up in the distance..."
-        },
-        {
-            "index": 12,
-            "technicalName": "centipede",
-            "name": "Centipede",
-            "displayName": "Centipede",
-            "description": "It's just there doing its thing.",
-            "overriddenSpawnMessage": null
-        },
-        {
-            "index": 13,
-            "technicalName": "centipede_body",
-            "name": "Centipede",
-            "displayName": "Centipede",
-            "description": "It's just there doing its thing.",
-            "overriddenSpawnMessage": null
-        },
-        {
-            "index": 14,
-            "technicalName": "centipede_evil",
-            "name": "Evil Centipede",
-            "displayName": "Centipede",
-            "description": "This one loves flowers.",
-            "overriddenSpawnMessage": null
-        },
-        {
-            "index": 15,
-            "technicalName": "centipede_evil_body",
-            "name": "Evil Centipede",
-            "displayName": "Centipede",
-            "description": "This one loves flowers.",
-            "overriddenSpawnMessage": null
-        },
-        {
-            "index": 16,
-            "technicalName": "centipede_desert",
-            "name": "Desert Centipede",
-            "displayName": "Centipede",
-            "description": "Gotta go fast.",
-            "overriddenSpawnMessage": null
-        },
-        {
-            "index": 17,
-            "technicalName": "centipede_desert_body",
-            "name": "Desert Centipede",
-            "displayName": "Centipede",
-            "description": "Gotta go fast.",
-            "overriddenSpawnMessage": null
-        },
-        {
-            "index": 18,
-            "technicalName": "square",
-            "name": "Square",
-            "displayName": "Square",
-            "description": "This shape... it looks familiar...",
-            "overriddenSpawnMessage": null
-        },
-        {
-            "index": 19,
-            "technicalName": "ladybug_dark",
-            "name": "Dark Ladybug",
-            "displayName": "Ladybug",
-            "description": "Cute and harmless... if left unprovoked.",
-            "overriddenSpawnMessage": null
-        },
-        {
-            "index": 20,
-            "technicalName": "ladybug_shiny",
-            "name": "Shiny Ladybug",
-            "displayName": "Ladybug",
-            "description": "Shiny, cute and mostly harmless.",
-            "overriddenSpawnMessage": null
-        },
-        {
-            "index": 21,
-            "technicalName": "spider",
-            "name": "Spider",
-            "displayName": "Spider",
-            "description": "Spooky.",
-            "overriddenSpawnMessage": null
-        },
-        {
-            "index": 22,
-            "technicalName": "scorpion",
-            "name": "Scorpion",
-            "displayName": "Scorpion",
-            "description": "IT STINGS!",
-            "overriddenSpawnMessage": null
-        },
-        {
-            "index": 23,
-            "technicalName": "fire_ant_soldier",
-            "name": "Soldier Fire Ant",
-            "displayName": "Soldier Fire Ant",
-            "description": "This ant is on fireeeeeeeeeeeeee.",
-            "overriddenSpawnMessage": null
-        },
-        {
-            "index": 24,
-            "technicalName": "fire_ant_burrow",
-            "name": "Fire Ant Burrow",
-            "displayName": "Fire Ant Burrow",
-            "description": "What could be in here?",
-            "overriddenSpawnMessage": null
-        },
-        {
-            "index": 25,
-            "technicalName": "sandstorm",
-            "name": "Sandstorm",
-            "displayName": "Sandstorm",
-            "description": "Darude (1999)",
-            "overriddenSpawnMessage": null
-        },
-        {
-            "index": 26,
-            "technicalName": "bubble",
-            "name": "Bubble",
-            "displayName": "Bubble",
-            "description": "Pop",
-            "overriddenSpawnMessage": null
-        },
-        {
-            "index": 27,
-            "technicalName": "bumble_bee",
-            "name": "Bumble Bee",
-            "displayName": "Bumble Bee",
-            "description": "GOTTA RUN.",
-            "overriddenSpawnMessage": null
-        },
-        {
-            "index": 28,
-            "technicalName": "shell",
-            "name": "Shell",
-            "displayName": "Shell",
-            "description": "Not an advertisement.",
-            "overriddenSpawnMessage": null
-        },
-        {
-            "index": 29,
-            "technicalName": "starfish",
-            "name": "Starfish",
-            "displayName": "Starfish",
-            "description": "His name is Patrick.",
-            "overriddenSpawnMessage": null
-        },
-        {
-            "index": 30,
-            "technicalName": "crab",
-            "name": "Crab",
-            "displayName": "Crab",
-            "description": "Mr. Crab.",
-            "overriddenSpawnMessage": null
-        },
-        {
-            "index": 31,
-            "technicalName": "jellyfish",
-            "name": "Jellyfish",
-            "displayName": "Jellyfish",
-            "description": "Makes the most delicious jam.",
-            "overriddenSpawnMessage": "You hear lightning strikes coming from a far distance..."
-        },
-        {
-            "index": 32,
-            "technicalName": "digger",
-            "name": "Digger",
-            "displayName": "Digger",
-            "description": "Wrong game, bud.",
-            "overriddenSpawnMessage": null
-        },
-        {
-            "index": 33,
-            "technicalName": "sponge",
-            "name": "Sponge",
-            "displayName": "Sponge",
-            "description": "Bob.",
-            "overriddenSpawnMessage": null
-        },
-        {
-            "index": 34,
-            "technicalName": "leech",
-            "name": "Leech",
-            "displayName": "Leech",
-            "description": "Slurp slurp.",
-            "overriddenSpawnMessage": null
-        },
-        {
-            "index": 35,
-            "technicalName": "leech_body",
-            "name": "Leech",
-            "displayName": "Leech",
-            "description": "Slurp slurp.",
-            "overriddenSpawnMessage": null
-        },
-        {
-            "index": 36,
-            "technicalName": "dandelion",
-            "name": "Dandelion",
-            "displayName": "Dandelion",
-            "description": "Puffy.",
-            "overriddenSpawnMessage": null
-        },
-        {
-            "index": 37,
-            "technicalName": "fire_ant_baby",
-            "name": "Baby Fire Ant",
-            "displayName": "Baby Fire Ant",
-            "description": "This ant is on fireeeeeeeeeeeeee.",
-            "overriddenSpawnMessage": null
-        },
-        {
-            "index": 38,
-            "technicalName": "fire_ant_worker",
-            "name": "Worker Fire Ant",
-            "displayName": "Worker Fire Ant",
-            "description": "This ant is on fireeeeeeeeeeeeee.",
-            "overriddenSpawnMessage": null
-        },
-        {
-            "index": 39,
-            "technicalName": "fire_ant_queen",
-            "name": "Queen Fire Ant",
-            "displayName": "Queen Fire Ant",
-            "description": "This ant is on fireeeeeeeeeeeeee.",
-            "overriddenSpawnMessage": null
-        },
-        {
-            "index": 40,
-            "technicalName": "ant_egg",
-            "name": "Ant Egg",
-            "displayName": "Ant Egg",
-            "description": "Not yet an ant but perhaps soon.",
-            "overriddenSpawnMessage": null
-        },
-        {
-            "index": 41,
-            "technicalName": "fire_ant_egg",
-            "name": "Fire Ant Egg",
-            "displayName": "Fire Ant Egg",
-            "description": "This ant is not yet on fire.",
-            "overriddenSpawnMessage": null
-        },
-        {
-            "index": 42,
-            "technicalName": "fly",
-            "name": "Fly",
-            "displayName": "Fly",
-            "description": "Hzzzzzzzzzzzz.",
-            "overriddenSpawnMessage": "A buzzing noise echoes through the sewer tunnels"
-        },
-        {
-            "index": 43,
-            "technicalName": "leafbug",
-            "name": "Leafbug",
-            "displayName": "Leafbug",
-            "description": "It's not a leaf, but it is a bug.",
-            "overriddenSpawnMessage": null
-        },
-        {
-            "index": 44,
-            "technicalName": "mantis",
-            "name": "Mantis",
-            "displayName": "Mantis",
-            "description": "You better pray you don't become dinner.",
-            "overriddenSpawnMessage": null
-        },
-        {
-            "index": 45,
-            "technicalName": "termite_baby",
-            "name": "Baby Termite",
-            "displayName": "Baby Termite",
-            "description": "Weak and defenseless, but big dreams.<n/>These creatures appear to be connected somehow.",
-            "overriddenSpawnMessage": null
-        },
-        {
-            "index": 46,
-            "technicalName": "termite_worker",
-            "name": "Worker Termite",
-            "displayName": "Worker Termite",
-            "description": "It's a bit temperamental, probably from working all the time.<n/>These creatures appear to be connected somehow.",
-            "overriddenSpawnMessage": null
-        },
-        {
-            "index": 47,
-            "technicalName": "termite_soldier",
-            "name": "Soldier Termite",
-            "displayName": "Soldier Termite",
-            "description": "It's got wings and it's ready to use them.<n/>These creatures appear to be connected somehow.",
-            "overriddenSpawnMessage": null
-        },
-        {
-            "index": 48,
-            "technicalName": "termite_overmind",
-            "name": "Termite Overmind",
-            "displayName": "Termite Overmind",
-            "description": "The one who oversees all.",
-            "overriddenSpawnMessage": null
-        },
-        {
-            "index": 49,
-            "technicalName": "termite_mound",
-            "name": "Termite Mound",
-            "displayName": "Termite Mound",
-            "description": "Termites go in, and come out. Can't explain that.",
-            "overriddenSpawnMessage": null
-        },
-        {
-            "index": 50,
-            "technicalName": "termite_egg",
-            "name": "Termite Egg",
-            "displayName": "Termite Egg",
-            "description": "Not yet a termite but perhaps soon.",
-            "overriddenSpawnMessage": null
-        },
-        {
-            "index": 51,
-            "technicalName": "bush",
-            "name": "Bush",
-            "displayName": "Bush",
-            "description": "Don't misunderestimate me.",
-            "overriddenSpawnMessage": null
-        },
-        {
-            "index": 52,
-            "technicalName": "roach",
-            "name": "Roach",
-            "displayName": "Roach",
-            "description": "Gotta go FAST... until they get tired.",
-            "overriddenSpawnMessage": null
-        },
-        {
-            "index": 53,
-            "technicalName": "moth",
-            "name": "Moth",
-            "displayName": "Moth",
-            "description": "Easily scared, be nice.",
-            "overriddenSpawnMessage": null
-        },
-        {
-            "index": 54,
-            "technicalName": "firefly",
-            "name": "Firefly",
-            "displayName": "Firefly",
-            "description": "Oooooh shiny.",
-            "overriddenSpawnMessage": "There's a bright light in the horizon..."
-        },
-        {
-            "index": 55,
-            "technicalName": "beetle_hel",
-            "name": "Hel Beetle",
-            "displayName": "Beetle",
-            "description": "Scourge that spawns in the other plane.",
-            "overriddenSpawnMessage": "You sense ominous vibrations coming from a different realm..."
-        },
-        {
-            "index": 56,
-            "technicalName": "wasp",
-            "name": "Wasp",
-            "displayName": "Wasp",
-            "description": "They are ANGRY.",
-            "overriddenSpawnMessage": null
-        },
-        {
-            "index": 57,
-            "technicalName": "target_dummy",
-            "name": "Target Dummy",
-            "displayName": "Dummy",
-            "description": "How do you have this in your gallery?",
-            "overriddenSpawnMessage": null
-        },
-        {
-            "index": 58,
-            "technicalName": "spider_hel",
-            "name": "Hel Spider",
-            "displayName": "Spider",
-            "description": "Scourge that spawns in the other plane.",
-            "overriddenSpawnMessage": "You sense ominous vibrations coming from a different realm..."
-        },
-        {
-            "index": 59,
-            "technicalName": "centipede_hel",
-            "name": "Hel Centipede",
-            "displayName": "Centipede",
-            "description": "Scourge that spawns in the other plane.",
-            "overriddenSpawnMessage": "You sense ominous vibrations coming from a different realm..."
-        },
-        {
-            "index": 60,
-            "technicalName": "centipede_hel_body",
-            "name": "Hel Centipede",
-            "displayName": "Centipede",
-            "description": "Scourge that spawns in the other plane.",
-            "overriddenSpawnMessage": "You sense ominous vibrations coming from a different realm..."
-        },
-        {
-            "index": 61,
-            "technicalName": "wasp_hel",
-            "name": "Hel Wasp",
-            "displayName": "Wasp",
-            "description": "Scourge that spawns in the other plane.",
-            "overriddenSpawnMessage": "You sense ominous vibrations coming from a different realm..."
-        },
-        {
-            "index": 62,
-            "technicalName": "trader",
-            "name": "Trader",
-            "displayName": "Trader",
-            "description": "",
-            "overriddenSpawnMessage": null
-        },
-        {
-            "index": 63,
-            "technicalName": "gambler",
-            "name": "Gambler",
-            "displayName": "Gambler",
-            "description": "This can happen to YOU.",
-            "overriddenSpawnMessage": "You hear someone whisper faintly... \"just... one more game...\""
-        },
-        {
-            "index": 64,
-            "technicalName": "oracle",
-            "name": "Oracle",
-            "displayName": "Oracle",
-            "description": "",
-            "overriddenSpawnMessage": null
-        },
-        {
-            "index": 65,
-            "technicalName": "firefly",
-            "name": "Magic Firefly",
-            "displayName": "Firefly",
-            "description": "There's something magical about this one.",
-            "overriddenSpawnMessage": null
-        },
-        {
-            "index": 66,
-            "technicalName": "titan",
-            "name": "Titan",
-            "displayName": "Titan",
-            "description": "",
-            "overriddenSpawnMessage": null
-        },
-        {
-            "index": 67,
-            "technicalName": "beetle_nazar",
-            "name": "Nazar Beetle",
-            "displayName": "Beetle",
-            "description": "This one has a different pattern... what does that mean?",
-            "overriddenSpawnMessage": null
-        },
-    	{
-    		"index": 68,
-            "technicalName": "worm",
-    		"name": "Worm",
-    		"displayName": "Worm",
-    		"description": "It's supposed to eat dirt but this one's eating flowers.",
-    		"overriddenSpawnMessage": null
-    	},
-    	{
-    		"index": 69,
-            "technicalName": "worm_guts",
-    		"name": "Worm guts",
-    		"displayName": "Worm guts",
-    		"description": "You're not supposed to see this text. I'm calling the police.",
-    		"overriddenSpawnMessage": null
-    	}
-    ],
-    "petal": [
-        {
-            "index": 1,
-            "name": "Basic",
-            "displayName": "Basic",
-            "description": "A nice petal, not too strong but not too weak."
-        },
-        {
-            "index": 2,
-            "name": "Light",
-            "displayName": "Light",
-            "description": "Weaker than most petals, but recharges very quickly."
-        },
-        {
-            "index": 3,
-            "name": "Rock",
-            "displayName": "Rock",
-            "description": "Extremely durable, but takes a bit longer to recharge."
-        },
-        {
-            "index": 4,
-            "name": "Square",
-            "displayName": "Square",
-            "description": "This shape... it looks familiar..."
-        },
-        {
-            "index": 5,
-            "name": "Rose",
-            "displayName": "Rose",
-            "description": "Its healing properties are amazing. Not so good at combat though."
-        },
-        {
-            "index": 6,
-            "name": "Stinger",
-            "displayName": "Stinger",
-            "description": "It really hurts, but it's very fragile."
-        },
-        {
-            "index": 7,
-            "name": "Iris",
-            "displayName": "Iris",
-            "description": "Very poisonous, but takes a little while to do its work."
-        },
-        {
-            "index": 8,
-            "name": "Wing",
-            "displayName": "Wing",
-            "description": "It comes and goes."
-        },
-        {
-            "index": 9,
-            "name": "Missile",
-            "displayName": "Missile",
-            "description": "You can actually shoot this one."
-        },
-        {
-            "index": 10,
-            "name": "Grapes",
-            "displayName": "Grapes",
-            "description": "It goes poof. Now with a secret ingredient: poison."
-        },
-        {
-            "index": 11,
-            "name": "Cactus",
-            "displayName": "Cactus",
-            "description": "Not very strong, but somehow increases your maximum health."
-        },
-        {
-            "index": 12,
-            "name": "Faster",
-            "displayName": "Faster",
-            "description": "It's so light it makes your other petals spin faster."
-        },
-        {
-            "index": 13,
-            "name": "Bubble",
-            "displayName": "Bubble",
-            "description": "Physics are for the weak."
-        },
-        {
-            "index": 14,
-            "name": "Pollen",
-            "displayName": "Pollen",
-            "description": "Asthmatics beware."
-        },
-        {
-            "index": 15,
-            "name": "Dandelion",
-            "displayName": "Dandelion",
-            "description": "Its interesting properties inhibits healing effects on affected units.<n/>Affected units have their healing reduced by 20%. Stacks with itself."
-        },
-        {
-            "index": 16,
-            "name": "Beetle Egg",
-            "displayName": "Egg",
-            "description": "Something interesting might pop out of this."
-        },
-        {
-            "index": 17,
-            "name": "Antennae",
-            "displayName": "Antennae",
-            "description": "Allows your flower to sense foes farther away."
-        },
-        {
-            "index": 18,
-            "name": "Heavy",
-            "displayName": "Heavy",
-            "description": "This thing is so heavy that nothing gets in the way.<n/>Slows down petal rotation speed when equipped."
-        },
-        {
-            "index": 19,
-            "name": "Yin Yang",
-            "displayName": "Yin Yang",
-            "description": "This mysterious petal affects the rotation of your petals in unpredictable ways."
-        },
-        {
-            "index": 20,
-            "name": "Web",
-            "displayName": "Web",
-            "description": "It's really sticky."
-        },
-        {
-            "index": 21,
-            "name": "Honey",
-            "displayName": "Honey",
-            "description": "Mobs love this. Attracts them in a large radius.<n/>Mobs will prioritize this over flowers.<n/>Affected units develop immunity to its effects after some time."
-        },
-        {
-            "index": 22,
-            "name": "Leaf",
-            "displayName": "Leaf",
-            "description": "Gathers energy from the sun to heal your flower passively."
-        },
-        {
-            "index": 23,
-            "name": "Salt",
-            "displayName": "Salt",
-            "description": "Reflects some of the damage you take back to the enemy that dealt it.<n/>Higher rarity mobs have higher resistance to damage reflection."
-        },
-        {
-            "index": 24,
-            "name": "Rice",
-            "displayName": "Rice",
-            "description": "Spawns very quickly, but not very strong."
-        },
-        {
-            "index": 25,
-            "name": "Corn",
-            "displayName": "Corn",
-            "description": "Takes a long time to spawn, but has a lot of health."
-        },
-        {
-            "index": 26,
-            "name": "Sand",
-            "displayName": "Sand",
-            "description": "A bunch of sand particles."
-        },
-        {
-            "index": 27,
-            "name": "Pincer",
-            "displayName": "Pincer",
-            "description": "Debilitates enemies temporarily, reducing their movement speed."
-        },
-        {
-            "index": 28,
-            "name": "Yucca",
-            "displayName": "Yucca",
-            "description": "Heals your flower but only while in the defensive position."
-        },
-        {
-            "index": 29,
-            "name": "Magnet",
-            "displayName": "Magnet",
-            "description": "Increases drop pick up range."
-        },
-        {
-            "index": 30,
-            "name": "Yggdrasil",
-            "displayName": "Yggdrasil",
-            "description": "A dried leaf from the Yggdrasil tree.<n/>Rumored to be able to bring the fallen back to life."
-        },
-        {
-            "index": 31,
-            "name": "Starfish",
-            "displayName": "Starfish",
-            "description": "Increases health regen while below 75% health."
-        },
-        {
-            "index": 32,
-            "name": "Pearl",
-            "displayName": "Pearl",
-            "description": "Just drop it off somewhere and use your kinetic powers so you don't lose it."
-        },
-        {
-            "index": 33,
-            "name": "Lightning",
-            "displayName": "Lightning",
-            "description": "Strikes several nearby enemies."
-        },
-        {
-            "index": 34,
-            "name": "Jelly",
-            "displayName": "Jelly",
-            "description": "No one likes touching this."
-        },
-        {
-            "index": 35,
-            "name": "Claw",
-            "displayName": "Claw",
-            "description": "Deals extra damage if the victim is above 80% health.<n/>-50% damage vs other flowers."
-        },
-        {
-            "index": 36,
-            "name": "Shell",
-            "displayName": "Shell",
-            "description": "Adds a temporary shield to yourself or allies."
-        },
-        {
-            "index": 37,
-            "name": "Cutter",
-            "displayName": "Cutter",
-            "description": "A friend used to own this... now it's time for revenge.<n/>Increases body damage."
-        },
-        {
-            "index": 38,
-            "name": "Dahlia",
-            "displayName": "Dahlia",
-            "description": "A small amount of heal but fairly consistent."
-        },
-        {
-            "index": 39,
-            "name": "Uranium",
-            "displayName": "Uranium",
-            "description": "Periodically releases radiation.<n/>-75% damage versus other flowers.<n/>Effect strength depends on distance to petal."
-        },
-        {
-            "index": 40,
-            "name": "Sponge",
-            "displayName": "Sponge",
-            "description": "Spreads damage taken by the flower over a period of time.<n/>If destroyed, deals remaining damage all at once.<n/>Does not delay <c val=\"#ce76db\">Poison</c> damage."
-        },
-        {
-            "index": 41,
-            "name": "Soil",
-            "displayName": "Soil",
-            "description": "Increases health, but also increases flower size and decreases movement speed."
-        },
-        {
-            "index": 42,
-            "name": "Fangs",
-            "displayName": "Fangs",
-            "description": "Heals based on damage dealt by this petal."
-        },
-        {
-            "index": 43,
-            "name": "Third Eye",
-            "displayName": "Third Eye",
-            "description": "Allows your flower to expand your petals further out."
-        },
-        {
-            "index": 44,
-            "name": "Peas",
-            "displayName": "Peas",
-            "description": "It goes poof."
-        },
-        {
-            "index": 45,
-            "name": "Mysterious Stick",
-            "displayName": "Stick",
-            "description": "A mysterious stick that summons the forces of the wind."
-        },
-        {
-            "index": 46,
-            "name": "Clover",
-            "displayName": "Clover",
-            "description": "Increases your luck.<n/>Luck is used by specific petals to change their stats."
-        },
-        {
-            "index": 47,
-            "name": "Mysterious Powder",
-            "displayName": "Powder",
-            "description": "Increases movement speed.<n/>Disabled if flower takes damage or if near a mob higher than a certain rarity."
-        },
-        {
-            "index": 48,
-            "name": "Air",
-            "displayName": "Air",
-            "description": "It's literally nothing."
-        },
-        {
-            "index": 49,
-            "name": "Basil",
-            "displayName": "Basil",
-            "description": "Increases all healing received."
-        },
-        {
-            "index": 50,
-            "name": "Orange",
-            "displayName": "Orange",
-            "description": "A sweet citrus fruit."
-        },
-        {
-            "index": 51,
-            "name": "Ant Egg",
-            "displayName": "Egg",
-            "description": "Something interesting might pop out of this."
-        },
-        {
-            "index": 52,
-            "name": "Poo",
-            "displayName": "Poo",
-            "description": "Makes mobs less likely to want to attack you."
-        },
-        {
-            "index": 53,
-            "name": "Mysterious Relic",
-            "displayName": "Relic",
-            "description": "A strange relic. Significantly increases maximum health.<n/>Damage taken is spread among other wearers."
-        },
-        {
-            "index": 54,
-            "name": "Lotus",
-            "displayName": "Lotus",
-            "description": "Absorbs poison damage taken by the flower."
-        },
-        {
-            "index": 55,
-            "name": "Light Bulb",
-            "displayName": "Bulb",
-            "description": "A shiny lightbulb. Draws aggro from mobs."
-        },
-        {
-            "index": 56,
-            "name": "Cotton",
-            "displayName": "Cotton",
-            "description": "Absorbs damage taken by the flower."
-        },
-        {
-            "index": 57,
-            "name": "Carrot",
-            "displayName": "Carrot",
-            "description": "Sturdy and reliable. Can be shot and bounces off walls."
-        },
-        {
-            "index": 58,
-            "name": "Bone",
-            "displayName": "Bone",
-            "description": "Sturdy."
-        },
-        {
-            "index": 59,
-            "name": "Plank",
-            "displayName": "Plank",
-            "description": "Does 20x damage vs projectiles and petals."
-        },
-        {
-            "index": 60,
-            "name": "Tomato",
-            "displayName": "Tomato",
-            "description": "Gets stronger over time."
-        },
-        {
-            "index": 61,
-            "name": "Dark Mark",
-            "displayName": "Mark",
-            "description": "A dark mark that binds itself to a fallen soul."
-        },
-        {
-            "index": 62,
-            "name": "Rubber",
-            "displayName": "Rubber",
-            "description": "Increases knockback received. Also absorbs lightning damage dealt to the flower."
-        },
-        {
-            "index": 63,
-            "name": "Blood Stinger",
-            "displayName": "Stinger",
-            "description": "It really hurts, but it's very fragile.<n/>Deals some of the damage dealt back to the flower."
-        },
-        {
-            "index": 64,
-            "name": "Bur",
-            "displayName": "Bur",
-            "description": "Decreases armor of affected unit. Does not stack with itself."
-        },
-        {
-            "index": 65,
-            "name": "Root",
-            "displayName": "Root",
-            "description": "Provides additional armor but only while in the defensive position."
-        },
-        {
-            "index": 66,
-            "name": "Ankh",
-            "displayName": "Ankh",
-            "description": "An ancient relic.<n/>When destroyed, will teleport the flower back to where it was destroyed."
-        },
-        {
-            "index": 67,
-            "name": "Dice",
-            "displayName": "Dice",
-            "description": "Has a 5% chance of dealing 35x damage.<n/>Chance increases by 4% per point in luck."
-        },
-        {
-            "index": 68,
-            "name": "Talisman of Evasion",
-            "displayName": "Talisman",
-            "description": "A necklace that allows the wearer to anticipate enemy attacks."
-        },
-        {
-            "index": 69,
-            "name": "Battery",
-            "displayName": "Battery",
-            "description": "Discharges electricity whenever the flower gets hit."
-        },
-        {
-            "index": 70,
-            "name": "Amulet",
-            "displayName": "Amulet",
-            "description": "Converts a percentage of overheal into shields."
-        },
-        {
-            "index": 71,
-            "name": "Compass",
-            "displayName": "Compass",
-            "description": "This crappy thing might be able to find something interesting..."
-        },
-        {
-            "index": 72,
-            "name": "Disc",
-            "displayName": "Disc",
-            "description": "Reduces damage taken from collisions with mobs and flowers."
-        },
-        {
-            "index": 73,
-            "name": "Shovel",
-            "displayName": "Shovel",
-            "description": "Becomes untargetable but unable to use petals for a limited time."
-        },
-        {
-            "index": 74,
-            "name": "Coin",
-            "displayName": "Coin",
-            "description": "The power of capitalism compels you!"
-        },
-        {
-            "index": 75,
-            "name": "Poker Chip",
-            "displayName": "Chip",
-            "description": "ALL IN."
-        },
-        {
-            "index": 76,
-            "name": "Card",
-            "displayName": "Card",
-            "description": "A playing card. Likely marked."
-        },
-        {
-            "index": 77,
-            "name": "Moon Rock",
-            "displayName": "Moon",
-            "description": "This thing is so big your petals orbit it instead.<n/>Where did you find this anyway?"
-        },
-        {
-            "index": 78,
-            "name": "Privet Berry",
-            "displayName": "Privet",
-            "description": "Deals extra <c val=\"#ce76db\">Poison</c> damage based on the existing <c val=\"#ce76db\">Poison</c> damage per second."
-        },
-        {
-            "index": 79,
-            "name": "Glass",
-            "displayName": "Glass",
-            "description": "Phases through enemies.<n/>Cannot damage enemies more often than a certain interval."
-        },
-        {
-            "index": 80,
-            "name": "Corruption",
-            "displayName": "Corruption",
-            "description": "Corrupts one's soul, turning them against their own kind."
-        },
-        {
-            "index": 81,
-            "name": "Mana Orb",
-            "displayName": "Orb",
-            "description": "Creates mana."
-        },
-        {
-            "index": 82,
-            "name": "Blueberries",
-            "displayName": "Blueberries",
-            "description": "It goes poof. Now with the extra secret ingredient: lightning."
-        },
-        {
-            "index": 83,
-            "name": "Magic Cotton",
-            "displayName": "Cotton",
-            "description": "Absorbs damage taken by the flower."
-        },
-        {
-            "index": 84,
-            "name": "Magic Stinger",
-            "displayName": "Stinger",
-            "description": "It really hurts, but it's very fragile."
-        },
-        {
-            "index": 85,
-            "name": "Magic Leaf",
-            "displayName": "Leaf",
-            "description": "Gathers mana from the environment passively."
-        },
-        {
-            "index": 86,
-            "name": "Magic Cactus",
-            "displayName": "Cactus",
-            "description": "Increases maximum mana capacity."
-        },
-        {
-            "index": 87,
-            "name": "Magic Eye",
-            "displayName": "Magic Eye",
-            "description": "Consumes half the current mana and deals damage based on that value."
-        },
-        {
-            "index": 88,
-            "name": "Magic Missile",
-            "displayName": "Missile",
-            "description": "You can actually shoot this one... with magic."
-        },
-        {
-            "index": 89,
-            "name": "Magic Stick",
-            "displayName": "Stick",
-            "description": "A mysterious stick that summons the forces of the wind... with magic."
-        },
-        {
-            "index": 90,
-            "name": "Coral",
-            "displayName": "Coral",
-            "description": "Breaks apart on impact.<n/>Each piece has 50% of the stats of the predecessor."
-        },
-        {
-            "index": 91,
-            "name": "Magic Bubble",
-            "displayName": "Bubble",
-            "description": "Physics are for the magicless."
-        },
-        {
-            "index": 92,
-            "name": "Nazar Amulet",
-            "displayName": "Nazar",
-            "description": "Reduces one damage instance damage by 98%."
-        }
-    ],
-    "rarity": [
-        {
-            "index": 0,
-            "name": "Common",
-            "color": 8318829
-        },
-        {
-            "index": 1,
-            "name": "Unusual",
-            "color": 16770653
-        },
-        {
-            "index": 2,
-            "name": "Rare",
-            "color": 5067491
-        },
-        {
-            "index": 3,
-            "name": "Epic",
-            "color": 8789982
-        },
-        {
-            "index": 4,
-            "name": "Legendary",
-            "color": 14556959
-        },
-        {
-            "index": 5,
-            "name": "Mythic",
-            "color": 2087902
-        },
-        {
-            "index": 6,
-            "name": "Ultra",
-            "color": 16722805
-        },
-        {
-            "index": 7,
-            "name": "Super",
-            "color": 2883491
-        },
-        {
-            "index": 8,
-            "name": "Unique",
-            "color": 5592405
-        }
-    ]
+  "__credit": "k2r_n2iq",
+  "mob": [
+    {
+      "index": 1,
+      "technicalName": "rock",
+      "name": "Rock",
+      "displayName": "Rock",
+      "description": "A rock. It doesn't do much.",
+      "overriddenSpawnMessage": "Something mountain-like appears in the distance..."
+    },
+    {
+      "index": 2,
+      "technicalName": "cactus",
+      "name": "Cactus",
+      "displayName": "Cactus",
+      "description": "Avoid touching it, it hurts.",
+      "overriddenSpawnMessage": "A tower of thorns rises from the sands..."
+    },
+    {
+      "index": 3,
+      "technicalName": "ladybug",
+      "name": "Ladybug",
+      "displayName": "Ladybug",
+      "description": "Cute and harmless.",
+      "overriddenSpawnMessage": null
+    },
+    {
+      "index": 4,
+      "technicalName": "bee",
+      "name": "Bee",
+      "displayName": "Bee",
+      "description": "It stings. Don't touch it.",
+      "overriddenSpawnMessage": null
+    },
+    {
+      "index": 5,
+      "technicalName": "ant_baby",
+      "name": "Baby Ant",
+      "displayName": "Baby Ant",
+      "description": "Weak and defenseless, but big dreams.",
+      "overriddenSpawnMessage": null
+    },
+    {
+      "index": 6,
+      "technicalName": "ant_worker",
+      "name": "Worker Ant",
+      "displayName": "Worker Ant",
+      "description": "It's a bit temperamental, probably from working all the time.",
+      "overriddenSpawnMessage": null
+    },
+    {
+      "index": 7,
+      "technicalName": "soldier_ant",
+      "name": "Soldier Ant",
+      "displayName": "Soldier Ant",
+      "description": "It's got wings and it's ready to use them.",
+      "overriddenSpawnMessage": null
+    },
+    {
+      "index": 8,
+      "technicalName": "ant_queen",
+      "name": "Queen Ant",
+      "displayName": "Queen Ant",
+      "description": "You must have done something really bad if she's chasing you.",
+      "overriddenSpawnMessage": null
+    },
+    {
+      "index": 9,
+      "technicalName": "ant_hole",
+      "name": "Ant Hole",
+      "displayName": "Ant Hole",
+      "description": "Ants go in, and come out. Can't explain that.",
+      "overriddenSpawnMessage": null
+    },
+    {
+      "index": 10,
+      "technicalName": "beetle",
+      "name": "Beetle",
+      "displayName": "Beetle",
+      "description": "It's hungry and flowers are its favorite meal.",
+      "overriddenSpawnMessage": null
+    },
+    {
+      "index": 11,
+      "technicalName": "hornet",
+      "name": "Hornet",
+      "displayName": "Hornet",
+      "description": "These aren't quite as nice as the little bees.",
+      "overriddenSpawnMessage": "A big yellow spot shows up in the distance..."
+    },
+    {
+      "index": 12,
+      "technicalName": "centipede",
+      "name": "Centipede",
+      "displayName": "Centipede",
+      "description": "It's just there doing its thing.",
+      "overriddenSpawnMessage": null
+    },
+    {
+      "index": 13,
+      "technicalName": "centipede_body",
+      "name": "Centipede",
+      "displayName": "Centipede",
+      "description": "It's just there doing its thing.",
+      "overriddenSpawnMessage": null
+    },
+    {
+      "index": 14,
+      "technicalName": "centipede_evil",
+      "name": "Evil Centipede",
+      "displayName": "Centipede",
+      "description": "This one loves flowers.",
+      "overriddenSpawnMessage": null
+    },
+    {
+      "index": 15,
+      "technicalName": "centipede_evil_body",
+      "name": "Evil Centipede",
+      "displayName": "Centipede",
+      "description": "This one loves flowers.",
+      "overriddenSpawnMessage": null
+    },
+    {
+      "index": 16,
+      "technicalName": "centipede_desert",
+      "name": "Desert Centipede",
+      "displayName": "Centipede",
+      "description": "Gotta go fast.",
+      "overriddenSpawnMessage": null
+    },
+    {
+      "index": 17,
+      "technicalName": "centipede_desert_body",
+      "name": "Desert Centipede",
+      "displayName": "Centipede",
+      "description": "Gotta go fast.",
+      "overriddenSpawnMessage": null
+    },
+    {
+      "index": 18,
+      "technicalName": "square",
+      "name": "Square",
+      "displayName": "Square",
+      "description": "This shape... it looks familiar...",
+      "overriddenSpawnMessage": null
+    },
+    {
+      "index": 19,
+      "technicalName": "ladybug_dark",
+      "name": "Dark Ladybug",
+      "displayName": "Ladybug",
+      "description": "Cute and harmless... if left unprovoked.",
+      "overriddenSpawnMessage": null
+    },
+    {
+      "index": 20,
+      "technicalName": "ladybug_shiny",
+      "name": "Shiny Ladybug",
+      "displayName": "Ladybug",
+      "description": "Shiny, cute and mostly harmless.",
+      "overriddenSpawnMessage": null
+    },
+    {
+      "index": 21,
+      "technicalName": "spider",
+      "name": "Spider",
+      "displayName": "Spider",
+      "description": "Spooky.",
+      "overriddenSpawnMessage": null
+    },
+    {
+      "index": 22,
+      "technicalName": "scorpion",
+      "name": "Scorpion",
+      "displayName": "Scorpion",
+      "description": "IT STINGS!",
+      "overriddenSpawnMessage": null
+    },
+    {
+      "index": 23,
+      "technicalName": "fire_ant_soldier",
+      "name": "Soldier Fire Ant",
+      "displayName": "Soldier Fire Ant",
+      "description": "This ant is on fireeeeeeeeeeeeee.",
+      "overriddenSpawnMessage": null
+    },
+    {
+      "index": 24,
+      "technicalName": "fire_ant_burrow",
+      "name": "Fire Ant Burrow",
+      "displayName": "Fire Ant Burrow",
+      "description": "What could be in here?",
+      "overriddenSpawnMessage": null
+    },
+    {
+      "index": 25,
+      "technicalName": "sandstorm",
+      "name": "Sandstorm",
+      "displayName": "Sandstorm",
+      "description": "Darude (1999)",
+      "overriddenSpawnMessage": null
+    },
+    {
+      "index": 26,
+      "technicalName": "bubble",
+      "name": "Bubble",
+      "displayName": "Bubble",
+      "description": "Pop",
+      "overriddenSpawnMessage": null
+    },
+    {
+      "index": 27,
+      "technicalName": "bumble_bee",
+      "name": "Bumble Bee",
+      "displayName": "Bumble Bee",
+      "description": "GOTTA RUN.",
+      "overriddenSpawnMessage": null
+    },
+    {
+      "index": 28,
+      "technicalName": "shell",
+      "name": "Shell",
+      "displayName": "Shell",
+      "description": "Not an advertisement.",
+      "overriddenSpawnMessage": null
+    },
+    {
+      "index": 29,
+      "technicalName": "starfish",
+      "name": "Starfish",
+      "displayName": "Starfish",
+      "description": "His name is Patrick.",
+      "overriddenSpawnMessage": null
+    },
+    {
+      "index": 30,
+      "technicalName": "crab",
+      "name": "Crab",
+      "displayName": "Crab",
+      "description": "Mr. Crab.",
+      "overriddenSpawnMessage": null
+    },
+    {
+      "index": 31,
+      "technicalName": "jellyfish",
+      "name": "Jellyfish",
+      "displayName": "Jellyfish",
+      "description": "Makes the most delicious jam.",
+      "overriddenSpawnMessage": "You hear lightning strikes coming from a far distance..."
+    },
+    {
+      "index": 32,
+      "technicalName": "digger",
+      "name": "Digger",
+      "displayName": "Digger",
+      "description": "Wrong game, bud.",
+      "overriddenSpawnMessage": null
+    },
+    {
+      "index": 33,
+      "technicalName": "sponge",
+      "name": "Sponge",
+      "displayName": "Sponge",
+      "description": "Bob.",
+      "overriddenSpawnMessage": null
+    },
+    {
+      "index": 34,
+      "technicalName": "leech",
+      "name": "Leech",
+      "displayName": "Leech",
+      "description": "Slurp slurp.",
+      "overriddenSpawnMessage": null
+    },
+    {
+      "index": 35,
+      "technicalName": "leech_body",
+      "name": "Leech",
+      "displayName": "Leech",
+      "description": "Slurp slurp.",
+      "overriddenSpawnMessage": null
+    },
+    {
+      "index": 36,
+      "technicalName": "dandelion",
+      "name": "Dandelion",
+      "displayName": "Dandelion",
+      "description": "Puffy.",
+      "overriddenSpawnMessage": null
+    },
+    {
+      "index": 37,
+      "technicalName": "fire_ant_baby",
+      "name": "Baby Fire Ant",
+      "displayName": "Baby Fire Ant",
+      "description": "This ant is on fireeeeeeeeeeeeee.",
+      "overriddenSpawnMessage": null
+    },
+    {
+      "index": 38,
+      "technicalName": "fire_ant_worker",
+      "name": "Worker Fire Ant",
+      "displayName": "Worker Fire Ant",
+      "description": "This ant is on fireeeeeeeeeeeeee.",
+      "overriddenSpawnMessage": null
+    },
+    {
+      "index": 39,
+      "technicalName": "fire_ant_queen",
+      "name": "Queen Fire Ant",
+      "displayName": "Queen Fire Ant",
+      "description": "This ant is on fireeeeeeeeeeeeee.",
+      "overriddenSpawnMessage": null
+    },
+    {
+      "index": 40,
+      "technicalName": "ant_egg",
+      "name": "Ant Egg",
+      "displayName": "Ant Egg",
+      "description": "Not yet an ant but perhaps soon.",
+      "overriddenSpawnMessage": null
+    },
+    {
+      "index": 41,
+      "technicalName": "fire_ant_egg",
+      "name": "Fire Ant Egg",
+      "displayName": "Fire Ant Egg",
+      "description": "This ant is not yet on fire.",
+      "overriddenSpawnMessage": null
+    },
+    {
+      "index": 42,
+      "technicalName": "fly",
+      "name": "Fly",
+      "displayName": "Fly",
+      "description": "Hzzzzzzzzzzzz.",
+      "overriddenSpawnMessage": "A buzzing noise echoes through the sewer tunnels"
+    },
+    {
+      "index": 43,
+      "technicalName": "leafbug",
+      "name": "Leafbug",
+      "displayName": "Leafbug",
+      "description": "It's not a leaf, but it is a bug.",
+      "overriddenSpawnMessage": null
+    },
+    {
+      "index": 44,
+      "technicalName": "mantis",
+      "name": "Mantis",
+      "displayName": "Mantis",
+      "description": "You better pray you don't become dinner.",
+      "overriddenSpawnMessage": null
+    },
+    {
+      "index": 45,
+      "technicalName": "termite_baby",
+      "name": "Baby Termite",
+      "displayName": "Baby Termite",
+      "description": "Weak and defenseless, but big dreams.<n/>These creatures appear to be connected somehow.",
+      "overriddenSpawnMessage": null
+    },
+    {
+      "index": 46,
+      "technicalName": "termite_worker",
+      "name": "Worker Termite",
+      "displayName": "Worker Termite",
+      "description": "It's a bit temperamental, probably from working all the time.<n/>These creatures appear to be connected somehow.",
+      "overriddenSpawnMessage": null
+    },
+    {
+      "index": 47,
+      "technicalName": "termite_soldier",
+      "name": "Soldier Termite",
+      "displayName": "Soldier Termite",
+      "description": "It's got wings and it's ready to use them.<n/>These creatures appear to be connected somehow.",
+      "overriddenSpawnMessage": null
+    },
+    {
+      "index": 48,
+      "technicalName": "termite_overmind",
+      "name": "Termite Overmind",
+      "displayName": "Termite Overmind",
+      "description": "The one who oversees all.",
+      "overriddenSpawnMessage": null
+    },
+    {
+      "index": 49,
+      "technicalName": "termite_mound",
+      "name": "Termite Mound",
+      "displayName": "Termite Mound",
+      "description": "Termites go in, and come out. Can't explain that.",
+      "overriddenSpawnMessage": null
+    },
+    {
+      "index": 50,
+      "technicalName": "termite_egg",
+      "name": "Termite Egg",
+      "displayName": "Termite Egg",
+      "description": "Not yet a termite but perhaps soon.",
+      "overriddenSpawnMessage": null
+    },
+    {
+      "index": 51,
+      "technicalName": "bush",
+      "name": "Bush",
+      "displayName": "Bush",
+      "description": "Don't misunderestimate me.",
+      "overriddenSpawnMessage": null
+    },
+    {
+      "index": 52,
+      "technicalName": "roach",
+      "name": "Roach",
+      "displayName": "Roach",
+      "description": "Gotta go FAST... until they get tired.",
+      "overriddenSpawnMessage": null
+    },
+    {
+      "index": 53,
+      "technicalName": "moth",
+      "name": "Moth",
+      "displayName": "Moth",
+      "description": "Easily scared, be nice.",
+      "overriddenSpawnMessage": null
+    },
+    {
+      "index": 54,
+      "technicalName": "firefly",
+      "name": "Firefly",
+      "displayName": "Firefly",
+      "description": "Oooooh shiny.",
+      "overriddenSpawnMessage": "There's a bright light in the horizon..."
+    },
+    {
+      "index": 55,
+      "technicalName": "beetle_hel",
+      "name": "Hel Beetle",
+      "displayName": "Beetle",
+      "description": "Scourge that spawns in the other plane.",
+      "overriddenSpawnMessage": "You sense ominous vibrations coming from a different realm..."
+    },
+    {
+      "index": 56,
+      "technicalName": "wasp",
+      "name": "Wasp",
+      "displayName": "Wasp",
+      "description": "They are ANGRY.",
+      "overriddenSpawnMessage": null
+    },
+    {
+      "index": 57,
+      "technicalName": "target_dummy",
+      "name": "Target Dummy",
+      "displayName": "Dummy",
+      "description": "How do you have this in your gallery?",
+      "overriddenSpawnMessage": null
+    },
+    {
+      "index": 58,
+      "technicalName": "spider_hel",
+      "name": "Hel Spider",
+      "displayName": "Spider",
+      "description": "Scourge that spawns in the other plane.",
+      "overriddenSpawnMessage": "You sense ominous vibrations coming from a different realm..."
+    },
+    {
+      "index": 59,
+      "technicalName": "centipede_hel",
+      "name": "Hel Centipede",
+      "displayName": "Centipede",
+      "description": "Scourge that spawns in the other plane.",
+      "overriddenSpawnMessage": "You sense ominous vibrations coming from a different realm..."
+    },
+    {
+      "index": 60,
+      "technicalName": "centipede_hel_body",
+      "name": "Hel Centipede",
+      "displayName": "Centipede",
+      "description": "Scourge that spawns in the other plane.",
+      "overriddenSpawnMessage": "You sense ominous vibrations coming from a different realm..."
+    },
+    {
+      "index": 61,
+      "technicalName": "wasp_hel",
+      "name": "Hel Wasp",
+      "displayName": "Wasp",
+      "description": "Scourge that spawns in the other plane.",
+      "overriddenSpawnMessage": "You sense ominous vibrations coming from a different realm..."
+    },
+    {
+      "index": 62,
+      "technicalName": "trader",
+      "name": "Trader",
+      "displayName": "Trader",
+      "description": "",
+      "overriddenSpawnMessage": null
+    },
+    {
+      "index": 63,
+      "technicalName": "gambler",
+      "name": "Gambler",
+      "displayName": "Gambler",
+      "description": "This can happen to YOU.",
+      "overriddenSpawnMessage": "You hear someone whisper faintly... \"just... one more game...\""
+    },
+    {
+      "index": 64,
+      "technicalName": "oracle",
+      "name": "Oracle",
+      "displayName": "Oracle",
+      "description": "",
+      "overriddenSpawnMessage": null
+    },
+    {
+      "index": 65,
+      "technicalName": "firefly",
+      "name": "Magic Firefly",
+      "displayName": "Firefly",
+      "description": "There's something magical about this one.",
+      "overriddenSpawnMessage": null
+    },
+    {
+      "index": 66,
+      "technicalName": "titan",
+      "name": "Titan",
+      "displayName": "Titan",
+      "description": "",
+      "overriddenSpawnMessage": null
+    },
+    {
+      "index": 67,
+      "technicalName": "beetle_nazar",
+      "name": "Nazar Beetle",
+      "displayName": "Beetle",
+      "description": "This one has a different pattern... what does that mean?",
+      "overriddenSpawnMessage": null
+    },
+    {
+      "index": 68,
+      "technicalName": "worm",
+      "name": "Worm",
+      "displayName": "Worm",
+      "description": "It's supposed to eat dirt but this one's eating flowers.",
+      "overriddenSpawnMessage": null
+    },
+    {
+      "index": 69,
+      "technicalName": "worm_guts",
+      "name": "Worm guts",
+      "displayName": "Worm guts",
+      "description": "You're not supposed to see this text. I'm calling the police.",
+      "overriddenSpawnMessage": null
+    }
+  ],
+  "petal": [
+    {
+      "index": 1,
+      "name": "Basic",
+      "displayName": "Basic",
+      "description": "A nice petal, not too strong but not too weak."
+    },
+    {
+      "index": 2,
+      "name": "Light",
+      "displayName": "Light",
+      "description": "Weaker than most petals, but recharges very quickly."
+    },
+    {
+      "index": 3,
+      "name": "Rock",
+      "displayName": "Rock",
+      "description": "Extremely durable, but takes a bit longer to recharge."
+    },
+    {
+      "index": 4,
+      "name": "Square",
+      "displayName": "Square",
+      "description": "This shape... it looks familiar..."
+    },
+    {
+      "index": 5,
+      "name": "Rose",
+      "displayName": "Rose",
+      "description": "Its healing properties are amazing. Not so good at combat though."
+    },
+    {
+      "index": 6,
+      "name": "Stinger",
+      "displayName": "Stinger",
+      "description": "It really hurts, but it's very fragile."
+    },
+    {
+      "index": 7,
+      "name": "Iris",
+      "displayName": "Iris",
+      "description": "Very poisonous, but takes a little while to do its work."
+    },
+    {
+      "index": 8,
+      "name": "Wing",
+      "displayName": "Wing",
+      "description": "It comes and goes."
+    },
+    {
+      "index": 9,
+      "name": "Missile",
+      "displayName": "Missile",
+      "description": "You can actually shoot this one."
+    },
+    {
+      "index": 10,
+      "name": "Grapes",
+      "displayName": "Grapes",
+      "description": "It goes poof. Now with a secret ingredient: poison."
+    },
+    {
+      "index": 11,
+      "name": "Cactus",
+      "displayName": "Cactus",
+      "description": "Not very strong, but somehow increases your maximum health."
+    },
+    {
+      "index": 12,
+      "name": "Faster",
+      "displayName": "Faster",
+      "description": "It's so light it makes your other petals spin faster."
+    },
+    {
+      "index": 13,
+      "name": "Bubble",
+      "displayName": "Bubble",
+      "description": "Physics are for the weak."
+    },
+    {
+      "index": 14,
+      "name": "Pollen",
+      "displayName": "Pollen",
+      "description": "Asthmatics beware."
+    },
+    {
+      "index": 15,
+      "name": "Dandelion",
+      "displayName": "Dandelion",
+      "description": "Its interesting properties inhibits healing effects on affected units.<n/>Affected units have their healing reduced by 20%. Stacks with itself."
+    },
+    {
+      "index": 16,
+      "name": "Beetle Egg",
+      "displayName": "Egg",
+      "description": "Something interesting might pop out of this."
+    },
+    {
+      "index": 17,
+      "name": "Antennae",
+      "displayName": "Antennae",
+      "description": "Allows your flower to sense foes farther away."
+    },
+    {
+      "index": 18,
+      "name": "Heavy",
+      "displayName": "Heavy",
+      "description": "This thing is so heavy that nothing gets in the way.<n/>Slows down petal rotation speed when equipped."
+    },
+    {
+      "index": 19,
+      "name": "Yin Yang",
+      "displayName": "Yin Yang",
+      "description": "This mysterious petal affects the rotation of your petals in unpredictable ways."
+    },
+    {
+      "index": 20,
+      "name": "Web",
+      "displayName": "Web",
+      "description": "It's really sticky."
+    },
+    {
+      "index": 21,
+      "name": "Honey",
+      "displayName": "Honey",
+      "description": "Mobs love this. Attracts them in a large radius.<n/>Mobs will prioritize this over flowers.<n/>Affected units develop immunity to its effects after some time."
+    },
+    {
+      "index": 22,
+      "name": "Leaf",
+      "displayName": "Leaf",
+      "description": "Gathers energy from the sun to heal your flower passively."
+    },
+    {
+      "index": 23,
+      "name": "Salt",
+      "displayName": "Salt",
+      "description": "Reflects some of the damage you take back to the enemy that dealt it.<n/>Higher rarity mobs have higher resistance to damage reflection."
+    },
+    {
+      "index": 24,
+      "name": "Rice",
+      "displayName": "Rice",
+      "description": "Spawns very quickly, but not very strong."
+    },
+    {
+      "index": 25,
+      "name": "Corn",
+      "displayName": "Corn",
+      "description": "Takes a long time to spawn, but has a lot of health."
+    },
+    {
+      "index": 26,
+      "name": "Sand",
+      "displayName": "Sand",
+      "description": "A bunch of sand particles."
+    },
+    {
+      "index": 27,
+      "name": "Pincer",
+      "displayName": "Pincer",
+      "description": "Debilitates enemies temporarily, reducing their movement speed."
+    },
+    {
+      "index": 28,
+      "name": "Yucca",
+      "displayName": "Yucca",
+      "description": "Heals your flower but only while in the defensive position."
+    },
+    {
+      "index": 29,
+      "name": "Magnet",
+      "displayName": "Magnet",
+      "description": "Increases drop pick up range."
+    },
+    {
+      "index": 30,
+      "name": "Yggdrasil",
+      "displayName": "Yggdrasil",
+      "description": "A dried leaf from the Yggdrasil tree.<n/>Rumored to be able to bring the fallen back to life."
+    },
+    {
+      "index": 31,
+      "name": "Starfish",
+      "displayName": "Starfish",
+      "description": "Increases health regen while below 75% health."
+    },
+    {
+      "index": 32,
+      "name": "Pearl",
+      "displayName": "Pearl",
+      "description": "Just drop it off somewhere and use your kinetic powers so you don't lose it."
+    },
+    {
+      "index": 33,
+      "name": "Lightning",
+      "displayName": "Lightning",
+      "description": "Strikes several nearby enemies."
+    },
+    {
+      "index": 34,
+      "name": "Jelly",
+      "displayName": "Jelly",
+      "description": "No one likes touching this."
+    },
+    {
+      "index": 35,
+      "name": "Claw",
+      "displayName": "Claw",
+      "description": "Deals extra damage if the victim is above 80% health.<n/>-50% damage vs other flowers."
+    },
+    {
+      "index": 36,
+      "name": "Shell",
+      "displayName": "Shell",
+      "description": "Adds a temporary shield to yourself or allies."
+    },
+    {
+      "index": 37,
+      "name": "Cutter",
+      "displayName": "Cutter",
+      "description": "A friend used to own this... now it's time for revenge.<n/>Increases body damage."
+    },
+    {
+      "index": 38,
+      "name": "Dahlia",
+      "displayName": "Dahlia",
+      "description": "A small amount of heal but fairly consistent."
+    },
+    {
+      "index": 39,
+      "name": "Uranium",
+      "displayName": "Uranium",
+      "description": "Periodically releases radiation.<n/>-75% damage versus other flowers.<n/>Effect strength depends on distance to petal."
+    },
+    {
+      "index": 40,
+      "name": "Sponge",
+      "displayName": "Sponge",
+      "description": "Spreads damage taken by the flower over a period of time.<n/>If destroyed, deals remaining damage all at once.<n/>Does not delay <c val=\"#ce76db\">Poison</c> damage."
+    },
+    {
+      "index": 41,
+      "name": "Soil",
+      "displayName": "Soil",
+      "description": "Increases health, but also increases flower size and decreases movement speed."
+    },
+    {
+      "index": 42,
+      "name": "Fangs",
+      "displayName": "Fangs",
+      "description": "Heals based on damage dealt by this petal."
+    },
+    {
+      "index": 43,
+      "name": "Third Eye",
+      "displayName": "Third Eye",
+      "description": "Allows your flower to expand your petals further out."
+    },
+    {
+      "index": 44,
+      "name": "Peas",
+      "displayName": "Peas",
+      "description": "It goes poof."
+    },
+    {
+      "index": 45,
+      "name": "Mysterious Stick",
+      "displayName": "Stick",
+      "description": "A mysterious stick that summons the forces of the wind."
+    },
+    {
+      "index": 46,
+      "name": "Clover",
+      "displayName": "Clover",
+      "description": "Increases your luck.<n/>Luck is used by specific petals to change their stats."
+    },
+    {
+      "index": 47,
+      "name": "Mysterious Powder",
+      "displayName": "Powder",
+      "description": "Increases movement speed.<n/>Disabled if flower takes damage or if near a mob higher than a certain rarity."
+    },
+    {
+      "index": 48,
+      "name": "Air",
+      "displayName": "Air",
+      "description": "It's literally nothing."
+    },
+    {
+      "index": 49,
+      "name": "Basil",
+      "displayName": "Basil",
+      "description": "Increases all healing received."
+    },
+    {
+      "index": 50,
+      "name": "Orange",
+      "displayName": "Orange",
+      "description": "A sweet citrus fruit."
+    },
+    {
+      "index": 51,
+      "name": "Ant Egg",
+      "displayName": "Egg",
+      "description": "Something interesting might pop out of this."
+    },
+    {
+      "index": 52,
+      "name": "Poo",
+      "displayName": "Poo",
+      "description": "Makes mobs less likely to want to attack you."
+    },
+    {
+      "index": 53,
+      "name": "Mysterious Relic",
+      "displayName": "Relic",
+      "description": "A strange relic. Significantly increases maximum health.<n/>Damage taken is spread among other wearers."
+    },
+    {
+      "index": 54,
+      "name": "Lotus",
+      "displayName": "Lotus",
+      "description": "Absorbs poison damage taken by the flower."
+    },
+    {
+      "index": 55,
+      "name": "Light Bulb",
+      "displayName": "Bulb",
+      "description": "A shiny lightbulb. Draws aggro from mobs."
+    },
+    {
+      "index": 56,
+      "name": "Cotton",
+      "displayName": "Cotton",
+      "description": "Absorbs damage taken by the flower."
+    },
+    {
+      "index": 57,
+      "name": "Carrot",
+      "displayName": "Carrot",
+      "description": "Sturdy and reliable. Can be shot and bounces off walls."
+    },
+    {
+      "index": 58,
+      "name": "Bone",
+      "displayName": "Bone",
+      "description": "Sturdy."
+    },
+    {
+      "index": 59,
+      "name": "Plank",
+      "displayName": "Plank",
+      "description": "Does 20x damage vs projectiles and petals."
+    },
+    {
+      "index": 60,
+      "name": "Tomato",
+      "displayName": "Tomato",
+      "description": "Gets stronger over time."
+    },
+    {
+      "index": 61,
+      "name": "Dark Mark",
+      "displayName": "Mark",
+      "description": "A dark mark that binds itself to a fallen soul."
+    },
+    {
+      "index": 62,
+      "name": "Rubber",
+      "displayName": "Rubber",
+      "description": "Increases knockback received. Also absorbs lightning damage dealt to the flower."
+    },
+    {
+      "index": 63,
+      "name": "Blood Stinger",
+      "displayName": "Stinger",
+      "description": "It really hurts, but it's very fragile.<n/>Deals some of the damage dealt back to the flower."
+    },
+    {
+      "index": 64,
+      "name": "Bur",
+      "displayName": "Bur",
+      "description": "Decreases armor of affected unit. Does not stack with itself."
+    },
+    {
+      "index": 65,
+      "name": "Root",
+      "displayName": "Root",
+      "description": "Provides additional armor but only while in the defensive position."
+    },
+    {
+      "index": 66,
+      "name": "Ankh",
+      "displayName": "Ankh",
+      "description": "An ancient relic.<n/>When destroyed, will teleport the flower back to where it was destroyed."
+    },
+    {
+      "index": 67,
+      "name": "Dice",
+      "displayName": "Dice",
+      "description": "Has a 5% chance of dealing 35x damage.<n/>Chance increases by 4% per point in luck."
+    },
+    {
+      "index": 68,
+      "name": "Talisman of Evasion",
+      "displayName": "Talisman",
+      "description": "A necklace that allows the wearer to anticipate enemy attacks."
+    },
+    {
+      "index": 69,
+      "name": "Battery",
+      "displayName": "Battery",
+      "description": "Discharges electricity whenever the flower gets hit."
+    },
+    {
+      "index": 70,
+      "name": "Amulet",
+      "displayName": "Amulet",
+      "description": "Converts a percentage of overheal into shields."
+    },
+    {
+      "index": 71,
+      "name": "Compass",
+      "displayName": "Compass",
+      "description": "This crappy thing might be able to find something interesting..."
+    },
+    {
+      "index": 72,
+      "name": "Disc",
+      "displayName": "Disc",
+      "description": "Reduces damage taken from collisions with mobs and flowers."
+    },
+    {
+      "index": 73,
+      "name": "Shovel",
+      "displayName": "Shovel",
+      "description": "Becomes untargetable but unable to use petals for a limited time."
+    },
+    {
+      "index": 74,
+      "name": "Coin",
+      "displayName": "Coin",
+      "description": "The power of capitalism compels you!"
+    },
+    {
+      "index": 75,
+      "name": "Poker Chip",
+      "displayName": "Chip",
+      "description": "ALL IN."
+    },
+    {
+      "index": 76,
+      "name": "Card",
+      "displayName": "Card",
+      "description": "A playing card. Likely marked."
+    },
+    {
+      "index": 77,
+      "name": "Moon Rock",
+      "displayName": "Moon",
+      "description": "This thing is so big your petals orbit it instead.<n/>Where did you find this anyway?"
+    },
+    {
+      "index": 78,
+      "name": "Privet Berry",
+      "displayName": "Privet",
+      "description": "Deals extra <c val=\"#ce76db\">Poison</c> damage based on the existing <c val=\"#ce76db\">Poison</c> damage per second."
+    },
+    {
+      "index": 79,
+      "name": "Glass",
+      "displayName": "Glass",
+      "description": "Phases through enemies.<n/>Cannot damage enemies more often than a certain interval."
+    },
+    {
+      "index": 80,
+      "name": "Corruption",
+      "displayName": "Corruption",
+      "description": "Corrupts one's soul, turning them against their own kind."
+    },
+    {
+      "index": 81,
+      "name": "Mana Orb",
+      "displayName": "Orb",
+      "description": "Creates mana."
+    },
+    {
+      "index": 82,
+      "name": "Blueberries",
+      "displayName": "Blueberries",
+      "description": "It goes poof. Now with the extra secret ingredient: lightning."
+    },
+    {
+      "index": 83,
+      "name": "Magic Cotton",
+      "displayName": "Cotton",
+      "description": "Absorbs damage taken by the flower."
+    },
+    {
+      "index": 84,
+      "name": "Magic Stinger",
+      "displayName": "Stinger",
+      "description": "It really hurts, but it's very fragile."
+    },
+    {
+      "index": 85,
+      "name": "Magic Leaf",
+      "displayName": "Leaf",
+      "description": "Gathers mana from the environment passively."
+    },
+    {
+      "index": 86,
+      "name": "Magic Cactus",
+      "displayName": "Cactus",
+      "description": "Increases maximum mana capacity."
+    },
+    {
+      "index": 87,
+      "name": "Magic Eye",
+      "displayName": "Magic Eye",
+      "description": "Consumes half the current mana and deals damage based on that value."
+    },
+    {
+      "index": 88,
+      "name": "Magic Missile",
+      "displayName": "Missile",
+      "description": "You can actually shoot this one... with magic."
+    },
+    {
+      "index": 89,
+      "name": "Magic Stick",
+      "displayName": "Stick",
+      "description": "A mysterious stick that summons the forces of the wind... with magic."
+    },
+    {
+      "index": 90,
+      "name": "Coral",
+      "displayName": "Coral",
+      "description": "Breaks apart on impact.<n/>Each piece has 50% of the stats of the predecessor."
+    },
+    {
+      "index": 91,
+      "name": "Magic Bubble",
+      "displayName": "Bubble",
+      "description": "Physics are for the magicless."
+    },
+    {
+      "index": 92,
+      "name": "Nazar Amulet",
+      "displayName": "Nazar",
+      "description": "Reduces one damage instance damage by 98%."
+    }
+  ],
+  "rarity": [
+    {
+      "index": 0,
+      "name": "Common",
+      "color": 8318829
+    },
+    {
+      "index": 1,
+      "name": "Unusual",
+      "color": 16770653
+    },
+    {
+      "index": 2,
+      "name": "Rare",
+      "color": 5067491
+    },
+    {
+      "index": 3,
+      "name": "Epic",
+      "color": 8789982
+    },
+    {
+      "index": 4,
+      "name": "Legendary",
+      "color": 14556959
+    },
+    {
+      "index": 5,
+      "name": "Mythic",
+      "color": 2087902
+    },
+    {
+      "index": 6,
+      "name": "Ultra",
+      "color": 16722805
+    },
+    {
+      "index": 7,
+      "name": "Super",
+      "color": 2883491
+    },
+    {
+      "index": 8,
+      "name": "Unique",
+      "color": 5592405
+    }
+  ]
 }
