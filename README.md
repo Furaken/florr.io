@@ -1,3 +1,6 @@
+# IMPORTANT
+Since my friends and I have quitted florr.io, so this repo will be closed and unsupported permanently.
+
 # florr.io
 ## About
 This repository is about a website game called [florr.io](https://florr.io/) and it is written 100% in Javascript. If you want Python version, please head over to https://github.com/NauticalTwilight/florr
