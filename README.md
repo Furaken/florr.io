@@ -4,7 +4,7 @@ Also this is NOT a copy of florr or the source code of it, you cannot recreate f
 
 # florr.io
 ## About
-This repository is about a website game called [florr.io](https://florr.io/) and it is written 100% in Javascript. If you want Python version, please head over to https://github.com/NauticalTwilight/florr
+This repository is about a website game called [florr.io](https://florr.io/) and is not the sources of it.
 
 ## Contributing
 If there is any issue, please go to [Issues](https://github.com/Furaken/florr.io/issues) or [Pull requests](https://github.com/Furaken/florr.io/pulls) tabs.
