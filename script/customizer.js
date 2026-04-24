@@ -1,16 +1,16 @@
 // ==UserScript==
 // @name         florr.io | Florr Customizer
 // @namespace    https://github.com/Furaken/florr.io/blob/main/script/customizer.js
-// @version      2.1.4
+// @version      2.1.5
 // @description  Redecorate florr.io with your style.
 // @author       Furaken
 // @match        https://florr.io/*
-// @license      MIT
+// @license      AGPL3
 // @run-at       document-start
 // @grant        GM_addStyle
 // ==/UserScript==
 
-const version = "2.1.4";
+const version = "2.1.5";
 
 function addAlpha(color, opacity) {
     opacity = Math.round(Math.min(Math.max(opacity ?? 1, 0), 1) * 255);
@@ -87,6 +87,7 @@ Object.defineProperty(window, 'mainCtx', { get: getMainCtx });
 function convertColor(this_, x0, y0, x1, y1, isStroke) {
     try {
         ls.color.from.forEach((obj, index) => {
+            if (obj.enabled === false) return;
             let outputColor = isStroke ? this_.strokeStyle : this_.fillStyle;
             if (outputColor != obj.color) return;
             if (obj.alpha != "*" && obj.alpha != this_.globalAlpha) return;
@@ -142,6 +143,7 @@ function convertColor(this_, x0, y0, x1, y1, isStroke) {
 
 function convertText(text) {
     ls.text.forEach(t => {
+        if (t.enabled === false) return;
         let a = new RegExp(t.from, "g");
         if (a.test(text)) text = text.replace(a, t.to);
     });
@@ -244,12 +246,10 @@ let container = createEle("div", document.querySelector("body"),
                 box-shadow:5px 5px rgba(0,0,0,0.3);
                 padding:0;display:flex;width:100%;height:100%;overflow:hidden;">
 
-      <!-- LEFT: detail panel -->
       <div style="display:flex;flex-direction:column;flex:1;min-width:0;border-right:2px solid #444444;">
         <div id="editLabel"
              style="text-align:center;background:#252525;padding:14px 18px;
                     font-size:14px;letter-spacing:1px;flex-shrink:0;">
-          WELCOME
         </div>
         <div id="left_actions"
              style="flex-shrink:0;border-bottom:2px solid #444444;padding:15px 20px;
@@ -267,10 +267,8 @@ let container = createEle("div", document.querySelector("body"),
         </div>
       </div>
 
-      <!-- RIGHT: tab nav panel -->
       <div style="display:flex;flex-direction:column;width:280px;flex-shrink:0;">
 
-        <!-- Tab buttons -->
         <div style="display:flex;border-bottom:2px solid #444444;flex-shrink:0;">
           <div id="tab_btn_color"
                style="flex:1;padding:14px 0;text-align:center;cursor:pointer;font-size:14px;
@@ -281,11 +279,9 @@ let container = createEle("div", document.querySelector("body"),
                       letter-spacing:1.5px;transition:background 0.15s;">TEXT</div>
         </div>
 
-        <!-- Item list -->
         <div id="con_nav_list"
              style="flex:1;overflow-y:auto;padding:10px 8px;"></div>
 
-        <!-- Action buttons -->
         <div id="con_nav_actions"
              style="border-top:2px solid #444444;padding:10px 8px;
                     display:flex;flex-direction:column;gap:6px;flex-shrink:0;"></div>
@@ -293,7 +289,6 @@ let container = createEle("div", document.querySelector("body"),
       </div>
     </div>
 
-    <!-- Close button -->
     <div id="closeButton"
          style="cursor:pointer;background-color:#BB5555;background-image:url(${CLOSE_SVG});background-position:center;background-size:contain;background-repeat:no-repeat;border:4px solid #974545;border-radius:5px;height:25px;width:25px;margin-left:5px;flex-shrink:0;box-shadow:4px 4px rgba(0,0,0,0.3)"></div>
     `
@@ -368,7 +363,6 @@ function showJsonView() {
     renderJsonNode(con, ls, []);
 }
 
-function showWelcome() { showJsonView(); }
 
 function appendJSON(incoming) {
     let added = 0;
@@ -442,6 +436,18 @@ function showColorDetail(index) {
 
     setLabel(`COLOR RULE  #${index + 1}`, "rgb(74,158,151)");
     con.innerHTML = "";
+
+    const enabledColor = x.enabled !== false;
+    let toggleRowColor = createEle("div", con, "display:flex;align-items:center;gap:8px;margin-bottom:14px;");
+    let toggleBtnColor = createEle("div", toggleRowColor,
+        `cursor:pointer;padding:4px 14px;border-radius:4px;font-size:14px;font-weight:600;
+         border:2px solid ${enabledColor ? '#2d5a3d' : '#555'};
+         background:${enabledColor ? '#3a7a4a' : '#333'};`,
+        enabledColor ? 'Enabled' : 'Disabled');
+    toggleBtnColor.onclick = function () {
+        ls.color.from[index].enabled = !enabledColor;
+        saveLS(); renderAll(); showColorDetail(index);
+    };
 
     let fromRow = createEle("div", con, "margin-bottom:14px;");
     createEle("div", fromRow, "font-size:14px;color:#aaa;margin-bottom:4px;", "MATCH COLOR");
@@ -667,7 +673,7 @@ function showColorDetail(index) {
             ls.color.from.splice(index, 1);
             ls.color.to.splice(index, 1);
             selectedColorIndex = -1;
-            saveLS(); renderAll(); showWelcome();
+            saveLS(); renderAll(); showJsonView();
         };
 }
 
@@ -678,6 +684,18 @@ function showTextDetail(index) {
 
     setLabel(`TEXT RULE  #${index + 1}`, "#7a5a8a");
     con.innerHTML = "";
+
+    const enabledText = t.enabled !== false;
+    let toggleRowText = createEle("div", con, "display:flex;align-items:center;gap:8px;margin-bottom:14px;");
+    let toggleBtnText = createEle("div", toggleRowText,
+        `cursor:pointer;padding:4px 14px;border-radius:4px;font-size:14px;font-weight:600;
+         border:2px solid ${enabledText ? '#2d5a3d' : '#555'};
+         background:${enabledText ? '#3a7a4a' : '#333'};`,
+        enabledText ? 'Enabled' : 'Disabled');
+    toggleBtnText.onclick = function () {
+        ls.text[index].enabled = !enabledText;
+        saveLS(); renderAll(); showTextDetail(index);
+    };
 
     createEle("div", con, "font-size:14px;color:#aaa;margin-bottom:4px;", "PATTERN (REGEX)");
     let fromBtn = createEle("div", con,
@@ -708,7 +726,7 @@ function showTextDetail(index) {
             if (!confirm(`Delete text rule #${index}?`)) return;
             ls.text.splice(index, 1);
             selectedTextIndex = -1;
-            saveLS(); renderAll(); showWelcome();
+            saveLS(); renderAll(); showJsonView();
         };
 }
 
@@ -764,11 +782,27 @@ function renderColorNav() {
         const isSelected = (i === selectedColorIndex);
         const toColor = (to.type === "solid") ? to.data
             : (to.data.colorStop ? to.data.colorStop[0].color : x.color);
+        const enabled = x.enabled !== false;
 
-        let row = createEle("div", list,
-            `cursor:pointer;display:flex;border-radius:7px;margin-bottom:5px;overflow:hidden;
+        let wrapper = createEle("div", list,
+            `display:flex;align-items:stretch;border-radius:7px;margin-bottom:5px;overflow:hidden;
              outline:2px solid ${isSelected ? '#6dbfb8' : 'transparent'};
-             transition:outline 0.1s;`);
+             transition:outline 0.1s;opacity:${enabled ? '1' : '0.5'};`);
+
+        let toggleBtn = createEle("div", wrapper,
+            `cursor:pointer;padding:0 9px;display:flex;align-items:center;justify-content:center;
+             background:${enabled ? '#2d5a3d' : '#3a3a3a'};border-right:2px solid rgba(0,0,0,0.25);
+             flex-shrink:0;font-size:15px;`,
+            enabled ? '●' : '○');
+        toggleBtn.title = enabled ? 'Disable rule' : 'Enable rule';
+        toggleBtn.onclick = function (e) {
+            e.stopPropagation();
+            ls.color.from[i].enabled = !enabled;
+            saveLS(); renderAll();
+            if (selectedColorIndex === i) showColorDetail(i);
+        };
+
+        let row = createEle("div", wrapper, `cursor:pointer;display:flex;flex:1;min-width:0;`);
 
         const cellText = `color:#fff;text-shadow:rgb(0 0 0) 2px 0px 0px, rgb(0 0 0) 1.75517px 0.958851px 0px, rgb(0 0 0) 1.0806px 1.68294px 0px, rgb(0 0 0) 0.141474px 1.99499px 0px, rgb(0 0 0) -0.832294px 1.81859px 0px, rgb(0 0 0) -1.60229px 1.19694px 0px, rgb(0 0 0) -1.97998px 0.28224px 0px, rgb(0 0 0) -1.87291px -0.701566px 0px, rgb(0 0 0) -1.30729px -1.5136px 0px, rgb(0 0 0) -0.421592px -1.95506px 0px, rgb(0 0 0) 0.567324px -1.91785px 0px, rgb(0 0 0) 1.41734px -1.41108px 0px, rgb(0 0 0) 1.92034px -0.558831px 0px;`;
 
@@ -844,11 +878,27 @@ function renderTextNav() {
 
     ls.text.forEach((t, i) => {
         const isSelected = (i === selectedTextIndex);
+        const enabled = t.enabled !== false;
 
-        let row = createEle("div", list,
-            `cursor:pointer;display:flex;border-radius:7px;margin-bottom:5px;overflow:hidden;
+        let wrapper = createEle("div", list,
+            `display:flex;align-items:stretch;border-radius:7px;margin-bottom:5px;overflow:hidden;
              outline:2px solid ${isSelected ? '#be95be' : 'transparent'};
-             transition:outline 0.1s;`);
+             transition:outline 0.1s;opacity:${enabled ? '1' : '0.5'};`);
+
+        let toggleBtn = createEle("div", wrapper,
+            `cursor:pointer;padding:0 9px;display:flex;align-items:center;justify-content:center;
+             background:${enabled ? '#2d5a3d' : '#3a3a3a'};border-right:2px solid rgba(0,0,0,0.25);
+             flex-shrink:0;font-size:15px;`,
+            enabled ? '●' : '○');
+        toggleBtn.title = enabled ? 'Disable rule' : 'Enable rule';
+        toggleBtn.onclick = function (e) {
+            e.stopPropagation();
+            ls.text[i].enabled = !enabled;
+            saveLS(); renderAll();
+            if (selectedTextIndex === i) showTextDetail(i);
+        };
+
+        let row = createEle("div", wrapper, `cursor:pointer;display:flex;flex:1;min-width:0;`);
 
         let leftCell = createEle("div", row,
             `flex:1;min-width:0;padding:8px 10px;display:flex;flex-direction:column;gap:1px;
@@ -951,7 +1001,8 @@ select option { background:#2a2a2e; color:white; }
 ::-webkit-scrollbar-thumb:hover { background:#777; }
 
 #left_actions div:hover { filter: brightness(1.2); }
-#con_nav_list > div:hover { outline-color: #6dbfb8 !important; filter: brightness(1.12); }
+#con_nav_list > div:hover { outline-color: #6dbfb8 !important; }
+#con_nav_list > div:hover > div:not(:first-child) { filter: brightness(1.12); }
 #con_nav_list span { font-size: 14px !important; }
 #con_nav_actions div {
     font-size: 14px !important;
